@@ -27,6 +27,7 @@
             </xpath>
             <xpath expr="//field[@name='company_registry']" position="attributes">
                 <attribute name="placeholder">Branch, e.g., 00000</attribute>
+                <attribute name="invisible">parent_id</attribute>
             </xpath>
             <xpath expr="//field[@name='vat']" position="after">
                 <field name="company_registry" position="move" />
